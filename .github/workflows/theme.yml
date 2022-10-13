@@ -25,7 +25,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
+            cd /srv/users/serverpilot/apps/richknowsnothing/public/wp-content/
             ls -al
-            pwd
-            whoami
-            git --info
