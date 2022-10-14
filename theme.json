@@ -1,0 +1,204 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+	"settings": {
+
+        "appearanceTools": true,
+
+        "useRootPaddingAwareAlignments": true,
+
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        },
+
+        "color": {
+            "background": true,
+            "custom": true,
+            "customDuotone": true,
+            "customGradient": true,
+            "defaultDuotone": false,
+            "defaultGradients": false,
+            "defaultPalette": false,
+            "duotone": [{
+                "colors": ["#111", "#fefefe"],
+                "name": "Duotone Name",
+                "slug": "duotone-name"
+            }],
+            "gradients": [{
+                "gradient": "linear-gradient(135deg, var(--wp--preset--color--quinary), var(--wp--preset--color--secondary))",
+                "name": "Gradient Name",
+                "slug": "gradient-name"
+            }],
+            "link": true,
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#111",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#fefefe",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#383838",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#00838f",
+					"name": "Quaternary"
+				},
+				{
+					"slug": "quinary",
+					"color": "#4fb3bf",
+					"name": "Quinary"
+				},
+                {
+                    "slug": "senary",
+                    "color": "#eeb8b0",
+                    "name": "Senary"
+                },
+                {
+                    "slug": "foreground",
+                    "color": "#000000",
+                    "name": "Foreground"
+                },
+				{
+					"slug": "foreground-alt",
+					"color": "#555555",
+					"name": "Foreground Alt"
+				},
+                {
+                    "slug": "background",
+                    "color": "#ffffff",
+                    "name": "Background"
+                },
+                {
+                    "slug": "background-alt",
+                    "color": "#e7e7e9",
+                    "name": "Background Alt"
+                },
+                {
+                    "slug": "accent",
+                    "color": "var(--wp--custom--color--accent)",
+                    "name": "Accent"
+                }
+			],
+            "text": true
+		},
+
+        "layout": {
+            "contentSize": "40rem",
+            "wideSize": "52rem"
+        },
+
+        "spacing": {
+            "blockGap": true,
+            "customSpacingSize": true,
+            "margin": true,
+            "padding": true,
+            "spacingScale": {
+                "increment": 1.5,
+                "mediumStep": 1.5,
+                "operator": "*",
+                "steps": 7,
+                "unit": "%"
+            },
+            "spacingSizes": [{
+                "name": "Spacing Sizes Name 10",
+                "size": "10",
+                "slug": "smallest"
+            },{
+                "name": "Spacing Sizes Name 20",
+                "size": "20",
+                "slug": "smaller"
+            },{
+                "name": "Spacing Sizes Name 30",
+                "size": "30",
+                "slug": "small"
+            },{
+                "name": "Spacing Sizes Name 40",
+                "size": "40",
+                "slug": "small-medium"
+            },{
+                "name": "Spacing Sizes Name 50",
+                "size": "50",
+                "slug": "medium"
+            },{
+                "name": "Spacing Sizes Name 60",
+                "size": "60",
+                "slug": "large"
+            },{
+                "name": "Spacing Sizes Name 70",
+                "size": "70",
+                "slug": "large"
+            }],
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ]
+        },
+
+        "typography": {
+            "fluid": true,
+            "lineHeight": true,
+            "fontSizes": [{
+                "size": "3rem",
+                "fluid": {
+                    "min": "3rem",
+                    "max": "6rem"
+                },
+                "slug": "large"
+            }],
+            "customFontSize": true,
+            "dropCap": true,
+            "fontFamilies": [{
+                "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+                "slug": "system-fonts",
+                "name": "System Fonts"
+            },
+            {
+                "fontFamily": "Geneva, Tahoma, Verdana, sans-serif",
+                "slug": "geneva-verdana",
+                "name": "Geneva Verdana"
+            },
+            {
+                "fontFamily": "Cambria, Georgia, serif",
+                "slug": "cambria-georgia",
+                "name": "Cambria Georgia"
+            }],
+            "letterSpacing": true,
+            "textDecoration": true,
+            "textTransform": true,
+            "fontWeight": true,
+            "fontStyle": true
+        },
+
+        "custom": {
+            "colorSchemeCustomName": "lightCustomValue"
+        },
+
+        "blocks": {
+            "core/paragraph": {
+                "appearanceTools": true,
+                "border": {
+                    "color": true,
+                    "radius": true,
+                    "style": true,
+                    "width": true
+                }
+            }
+        }
+        
+	}
+}
